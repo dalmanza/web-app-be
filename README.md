@@ -1,6 +1,8 @@
 # web-app-be
 
-  The Technologies used to develop this application were:
+
+The Technologies used to develop this application were:
+
     1. Spring boot
     2. Lombok
     3. Spring boot test [Junit]
