@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    portfolio:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      hikari:
+        maximumPoolSize: 10
+        minimumIdle: 5
+        poolName: portfolio-jdbc-pool
+      #jdbcUrl: "jdbc:mysql://zemoga-test-db.crhpedy9xxto.us-east-1.rds.amazonaws.com/zemoga_test_db"
+      jdbcUrl: "jdbc:mysql://52.203.151.92/zemoga_test_db"
+      jmx-enabled: true
+      password: Zem0ga.101
+      username: zemoga_test_db
