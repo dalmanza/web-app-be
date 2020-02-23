@@ -27,12 +27,14 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
-	testImplementation('org.springframework.boot:spring-boot-starter-test') {
-		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-	}
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.2.4.RELEASE'
 	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
 	compile group: 'org.twitter4j', name: 'twitter4j-stream', version: '4.0.6'
+	
+	testCompile group: 'org.mockito', name: 'mockito-core', version: '3.3.0'
+	
 }
 
 test {
