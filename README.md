@@ -12,5 +12,5 @@ The Technologies used to develop this application were:
     7. Gradle
     8. Docker
   
-   The time it took me to develop the entire application was around 6/7 hrs. What it took me the most was 
+   The total time it took me to develop the entire application was around 6/7 hrs. What it took me the most was 
      the Twiter api integration
